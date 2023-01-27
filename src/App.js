@@ -1,11 +1,11 @@
-import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div className="text-center">
-      {/* <h1 className="text-6xl">App page</h1> */}
-      {/* <NavBar/> */}
+    <div className="text-center h-screen justify-center items-center w-full bg-red-400">
+      <Navbar />
       <Banner/>
+      <h1 className="text-6xl">App page</h1>
+
     </div>
   );
 }
