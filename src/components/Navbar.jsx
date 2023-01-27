@@ -4,7 +4,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 const Navbar = () => {
   return (
     <div className="w-full flex justify-center h-24">
-      <div className="text-center flex justify-between items-center px-2 w-full md:min-w-[80%] bg-black text-white">
+      <div className="text-center flex justify-between items-center px-2 w-full md:max-w-[80%] bg-black text-white">
         <div>
           <p className="text-xl">
             Portfo<span className="text-pink-700 cursor-pointer">lio</span>
