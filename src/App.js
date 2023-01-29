@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 import Aboutme from "./components/Aboutme";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Navbar/>
       <Banner/>
       <Aboutme />
-      <Service/>
+      <Service />
+      <Footer />
  
     </div>
   );

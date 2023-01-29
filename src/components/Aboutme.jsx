@@ -7,11 +7,11 @@ const Aboutme = () => {
       <div className="about-wrapper flex flex-col items-center md:flex-row  ">
         <div className="about-image  md:h-96 md:w-[80%] md:bg-[url('/src/img/33.png')] md:bg-contain  md:bg-no-repeat"></div>
         <div className="h-96 px-2">
-          <p className="text-xl text-gray-300  py-2">
+          <p className=" text-gray-300  py-2">
             delectus dolore nemo maiores dolorem error tempora adipisci nihil
             enim a quod quaerat! Iusto, beatae. Est ea amet perspiciatis?
           </p>
-          <p className="text-xl text-gray-200 ">
+          <p className=" text-gray-300 ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
             commodi consectetur. Quisquam, sequi! Temporibus, facere!
           </p>
