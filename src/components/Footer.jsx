@@ -1,5 +1,5 @@
 import React from 'react'
-import{FaFacebookF, FaGithub, FaLinkedinIn} from 'react-icons/fa'
+import{FaFacebookF, FaGithub, FaLinkedinIn, FaWhatsapp} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -21,6 +21,9 @@ const Footer = () => {
           </p>
           <p className="flex items-center justify-center shadow-md w-9 h-9 rounded-full border-md bg-pink-700 mx-2 cursor-pointer hover:opacity-90 hover:scale-110">
             <FaGithub className="text-gray-300 text-2xl" />
+          </p>
+          <p className="flex items-center justify-center shadow-md w-9 h-9 rounded-full border-md bg-pink-700 mx-2 cursor-pointer hover:opacity-90 hover:scale-110">
+            <FaWhatsapp className="text-gray-300 text-2xl" />
           </p>
         </div>
       </div>
