@@ -3,7 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 export default function Service() {
   return (
     <div class="flex flex-col py-4 bg-black">
-        <p className="text-white text-2xl tracking-[4px] font-bold">service</p>
+        <p className="text-white text-2xl tracking-[4px] font-bold">Services</p>
 
             <div className="flex flex-col justify-center items-center  space-y-2 py-2 md:flex-row md:space-x-2">
 
