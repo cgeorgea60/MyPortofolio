@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
+import{FaFacebookF, FaGithub, FaLinkedinIn} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -13,14 +13,14 @@ const Footer = () => {
           nobis officia. Voluptatum quo mollitia dicta!
         </p>
         <div className="socials-wrapper flex items-center justify-center p-4 ">
-          <p className="flex items-center justify-center shadow-md w-10 h-10 rounded-full border-md bg-pink-700 mx-2 cursor-pointer">
-            <AiOutlineFacebook className="text-gray-300 text-2xl" />
+          <p className="flex items-center justify-center shadow-md w-9 h-9 rounded-full border-md bg-pink-700 mx-2 cursor-pointer hover:opacity-90 hover:scale-110">
+            <FaFacebookF className="text-gray-300 text-2xl" />
           </p>
-          <p className="flex items-center justify-center shadow-md w-10 h-10 rounded-full border-md bg-pink-700 mx-2 cursor-pointer">
-            <AiOutlineLinkedin className="text-gray-300 text-2xl" />
+          <p className="flex items-center justify-center shadow-md w-9 h-9 rounded-full border-md bg-pink-700 mx-2 cursor-pointer hover:opacity-90 hover:scale-110">
+            <FaLinkedinIn className="text-gray-300 text-2xl" />
           </p>
-          <p className="flex items-center justify-center shadow-md w-10 h-10 rounded-full border-md bg-pink-700 mx-2 cursor-pointer">
-            <AiOutlineGithub className="text-gray-300 text-2xl" />
+          <p className="flex items-center justify-center shadow-md w-9 h-9 rounded-full border-md bg-pink-700 mx-2 cursor-pointer hover:opacity-90 hover:scale-110">
+            <FaGithub className="text-gray-300 text-2xl" />
           </p>
         </div>
       </div>
