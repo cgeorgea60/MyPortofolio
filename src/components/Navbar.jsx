@@ -1,7 +1,11 @@
-import React from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import React, { useState } from "react";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+// import { TfiClose } from "react-icons/tf";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
+
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="w-full flex justify-center h-24">
       <div className="text-center flex justify-between items-center px-2 w-full md:max-w-[80%] bg-black text-gray-200">
@@ -23,8 +27,20 @@ const Navbar = () => {
           Download CV
         </div>
         <div className="md:hidden">
-          <AiOutlineMenu className="text-4xl cursor-pointer hover:scale-110" />
+          {
+            menuOpen ? (
+              
+              <AiOutlineClose onClick={()=>setMenuOpen(!menuOpen)} className="text-4xl cursor-pointer hover:scale-110" />
+              ):(
+                
+                <AiOutlineMenu onClick={()=>setMenuOpen(!menuOpen)} className="text-4xl cursor-pointer hover:scale-110" />
+            )
+          }
         </div>
+        
+
+            <MobileMenu menuOpen={menuOpen}/>
+        
       </div>
     </div>
   );
